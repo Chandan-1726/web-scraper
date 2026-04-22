@@ -80,4 +80,3 @@ def scrape_products(search):
 
     return df.to_dict(orient="records")
 
-scrape_products("laptop")
